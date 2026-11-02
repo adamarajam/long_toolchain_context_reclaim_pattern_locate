@@ -1,11 +1,11 @@
-# safeval_jd253
+# long_toolchain_context_reclaim_pattern_locate
 
 **用规则在模型安全评测负责人·长工具链的上下文回收里定位可疑位置。**
 
-`safeval_jd253` —— 用一组明示的正则规则扫描输入，报告模型安全评测负责人·长工具链的上下文回收相关的命中行与片段
+`long_toolchain_context_reclaim_pattern_locate` —— 用一组明示的正则规则扫描输入，报告模型安全评测负责人·长工具链的上下文回收相关的命中行与片段
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`safeval_jd253.py` 拷走就能用
+- 单文件，`long_toolchain_context_reclaim_pattern_locate.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install adamarajam-safeval_jd253
+pip install adamarajam-long_toolchain_context_reclaim_pattern_locate
 ```
 
 装完直接用命令名调用：
 
 ```bash
-safeval_jd253 --help
+long_toolchain_context_reclaim_pattern_locate --help
 ```
 
-也可以不用安装，直接把 `safeval_jd253.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `long_toolchain_context_reclaim_pattern_locate.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ safeval_jd253 --help
 ## 用法
 
 ```bash
-python safeval_jd253.py --file input.txt
-python safeval_jd253.py --text "示例内容"
-python safeval_jd253.py --file input.txt --json
+python long_toolchain_context_reclaim_pattern_locate.py --file input.txt
+python long_toolchain_context_reclaim_pattern_locate.py --text "示例内容"
+python long_toolchain_context_reclaim_pattern_locate.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python safeval_jd253.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_safeval_jd253.py
+python test_long_toolchain_context_reclaim_pattern_locate.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_safeval_jd253.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/adamarajam/safeval_jd253>
+- GitHub 仓库：<https://github.com/adamarajam/long_toolchain_context_reclaim_pattern_locate>
 
 ---
 
@@ -79,7 +79,7 @@ python test_safeval_jd253.py
 adamarajam 做模型安全评测负责人·长工具链的上下文回收相关的问题，方向对标蚂蚁集团的专家模型安全评测负责人岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://adamarajam.github.io>
-- 仓库：<https://github.com/adamarajam/safeval_jd253>
+- 仓库：<https://github.com/adamarajam/long_toolchain_context_reclaim_pattern_locate>
 
 ## 许可
 

@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "adamarajam-safeval_jd253"
+name = "adamarajam-long_toolchain_context_reclaim_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告模型安全评测负责人·长工具链的上下文回收相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://adamarajam.github.io"
-Repository = "https://github.com/adamarajam/safeval_jd253"
-Issues = "https://github.com/adamarajam/safeval_jd253/issues"
+Repository = "https://github.com/adamarajam/long_toolchain_context_reclaim_pattern_locate"
+Issues = "https://github.com/adamarajam/long_toolchain_context_reclaim_pattern_locate/issues"
 
 [project.scripts]
-safeval_jd253 = "safeval_jd253:main"
+long_toolchain_context_reclaim_pattern_locate = "long_toolchain_context_reclaim_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["safeval_jd253"]
+py-modules = ["long_toolchain_context_reclaim_pattern_locate"]
